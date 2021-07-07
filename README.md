@@ -1,4 +1,8 @@
 # Wiley
+
+## Quick recap of java concepts and relational database .(Week 1-2)
+
+### Mini Project ( Bank System ) Week 3
 Build an application that constitutes for a banking platform, it should handle the account transacs,
   	for credit and debit as per the banking systems , we should 
   	have the account details tracked as well.

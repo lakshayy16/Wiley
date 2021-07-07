@@ -10,8 +10,8 @@ Build an application that constitutes for a banking platform, it should handle t
   Opening message - with the options for the actions that can be performed by the user
   according to the option opted for E.g Credit/Debit do accordingly 
   if debit needs to be performed , have to check if the amount debitted is present in the account 
-  	- The account in which the amount will be transferred is a valid account 
-  	- Transaction/authentication password confirmation 
+   - The account in which the amount will be transferred is a valid account 
+   - Transaction/authentication password confirmation 
    - once the transaction takes place , both the parties query is resolved then only commit or else 
    	rollback takes place in case of error.
    - a confirmation message with the menu being shown again for any other action to be done .

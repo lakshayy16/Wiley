@@ -1,6 +1,6 @@
 # Wiley
 
-##(Week 1-2)
+## (Week 1-2)
 ## Quick recap of java concepts and relational database .
 
 ## Week 3 

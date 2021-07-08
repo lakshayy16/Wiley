@@ -2,7 +2,15 @@
 
 ## Quick recap of java concepts and relational database .(Week 1-2)
 
-### Mini Project ( Bank System ) Week 3
+## Week 3 
+### Implementation of -
+  1. Lambda 
+  2. Method Overloading , Optional
+  3. Streams(Filter,Map,Reduce,Collect ..)
+  4. Treeset 
+  5. Comparator (Assignment)
+
+### Mini Project ( Bank System ) 
 Build an application that constitutes for a banking platform, it should handle the account transacs,
   	for credit and debit as per the banking systems , we should 
   	have the account details tracked as well.

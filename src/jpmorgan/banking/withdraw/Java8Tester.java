@@ -4,12 +4,36 @@ import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.Map;
-
+import java.util.*;
 public class Java8Tester {
 
    public static void main(String args[]) {
+	   Set tset = new TreeSet();
+	   tset.add("Hi");
+	   tset.add("Hello");
+	   tset.add("Hola");
+	   tset.add("Buenos");
+	   tset.add("Diaz");
+	   //tset.add(null); - Does not allow null values 
+	   tset.forEach(System.out::println);
+	   
+	   System.out.println("*****************");
+	   Set test = new HashSet();
+	   test.add("First");
+	   test.add("2nd");
+	   test.add("third");
+	   test.add("4th");
+	   test.add("fifth");
+	   test.add("6th");
+	   test.add("Seventh");
+	   test.add("8th");
+	   test.add(null);
+	   test.forEach(System.out::println);
+	   
+	  System.out.println("*****************");
       System.out.println("Using Java 7: ");
 		
       // Count empty strings
@@ -187,5 +211,3 @@ public class Java8Tester {
       return getSum(numbers) / numbers.size();
    }
 }
-
-monica mohit

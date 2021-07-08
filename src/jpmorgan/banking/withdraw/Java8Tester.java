@@ -20,6 +20,14 @@ public class Java8Tester {
 	   //tset.add(null); - Does not allow null values 
 	   tset.forEach(System.out::println);
 	   
+	   // From an input converting to lower case then filter the values starting with "h" and printing it out
+	   List<String> people = Arrays.asList("Hello","My","Hi","Haalo");
+	   people.
+	   stream().
+	   map(String::toLowerCase)
+	   .filter(x->x.startsWith("h"))
+	   .forEach(System.out::print);
+	   
 	   System.out.println("*****************");
 	   Set test = new HashSet();
 	   test.add("First");

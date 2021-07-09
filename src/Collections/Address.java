@@ -9,14 +9,15 @@ public class Address {
 	public static void main(String args[])
 	{
 		List<Add> Address = new ArrayList<>();
-		Address.add(new Add("BLR",560001));
+		
 		Address.add(new Add("DEL",110001));
 		Address.add(new Add("GN",201305));
+		Address.add(new Add("BLR",560001));
 		
 		List<User> user = new ArrayList<>();
-		user.add(new User(2, "User2", Arrays.asList(Address.get(1), Address.get(0))));
-		user.add(new User(1, "User1", Arrays.asList(Address.get(2), Address.get(0))));
-		user.add(new User(3, "User3", Arrays.asList(Address.get(2), Address.get(0))));
+		user.add(new User(2, "User2", Arrays.asList(Address.get(1), Address.get(2))));
+		user.add(new User(1, "User1", Arrays.asList(Address.get(0), Address.get(2))));
+		user.add(new User(3, "User3", Arrays.asList(Address.get(0), Address.get(2))));
 		
 		System.out.println("[");
 		Address.forEach(i->{

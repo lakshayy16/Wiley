@@ -8,8 +8,9 @@
   1. Lambda 
   2. Method Overloading , Optional
   3. Streams(Filter,Map,Reduce,Collect ..)
-  4. ArrayList,Treeset,Map
+  4. ArrayList,Treeset
   5. Comparator (Assignment)
+  6. HashMap - Hashcode , equals (Assignment)
 
 ### Mini Project ( Bank System ) 
 Build an application that constitutes for a banking platform, it should handle the account transacs,

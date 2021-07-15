@@ -1,7 +1,15 @@
 package jpmorgan.banking.withdraw.BankingMP;
-import java.util.*;
+import java.util.HashMap;
+
 public class Bank {
-	public static void main() {
-	List<Integer> AccNo = Arrays.asList(101, 102, 103, 104, 105, 106, 107);
-}
+
+	static {
+		HashMap<Integer, Integer> hm = new HashMap<>();
+		hm.put(50,5);
+		hm.put(100,5);
+		hm.put(200,4);
+		hm.put(500,3);
+		
+	}
+	
 }

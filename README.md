@@ -12,6 +12,11 @@
   5. Comparator (Assignment)
   6. HashMap - Hashcode , equals (Assignment)
 
+## Week 4 
+  1. Multi-Threading 
+  2. Internal Thread 
+  3. Synchronization , Notify , Wait ()
+
 ### Mini Project ( Bank System ) 
 Build an application that constitutes for a banking platform, it should handle the account transacs,
   	for credit and debit as per the banking systems , we should 

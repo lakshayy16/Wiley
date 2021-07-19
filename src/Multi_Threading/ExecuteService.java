@@ -3,7 +3,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ExecuteService {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
 
         // Thread Pool Executor
 
@@ -31,25 +31,24 @@ public class ExecuteService {
         // use single thread
         //ExecutorService service = Executors.newSingleThreadExecutor();
 
-        ExecutorService service = Executors.newFixedThreadPool(2);
+        ExecutorService service = Executors.newFixedThreadPool(4);
         // executor service facilitates the worker threads
 
 
         // spawn the thread pool for the object
 
-        Object object4;
 		//execute doesnt return us anything
-        service.execute(new ThreadPool(object4,"A"));
         service.execute(object);
 
         service.execute(object1);
+        service.execute(object2);
 
         service.shutdown();
 
-        service.execute(object2);
-        service.execute(object1);
-
-        service.execute(object);
+//        service.execute(object2);
+//        service.execute(object1);
+//
+//        service.execute(object);
 
         // we can return
 
@@ -61,11 +60,11 @@ public class ExecuteService {
 }
 
 class ThreadPool implements Runnable{
-    public ThreadPool(Object object4, String string) {
-		// TODO Auto-generated constructor stub
-	}
+    
+	
 
 	void process(){
+		synchronized(this) {
         for (int i = 0; i < 10 ; i++) {
             try {
                 Thread.sleep(10);
@@ -74,6 +73,7 @@ class ThreadPool implements Runnable{
             }
             System.out.println(Thread.currentThread().getName() +" "+i);
         }
+	}
     }
 
     @Override

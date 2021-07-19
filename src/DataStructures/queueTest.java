@@ -11,9 +11,9 @@ public class queueTest {
 		mq.enqueue(42);
 		mq.print();
 		System.out.println("");
-		System.out.println( mq.dequeue());
+		System.out.println( mq.dequeue());// popping the first value
 		System.out.println(mq.dequeue());
-		mq.peek();
+		mq.peek();//returns the rear value in the queue
 
 
 //		Queue<Integer> q = new LinkedList<>();

@@ -13,10 +13,17 @@
   6. HashMap - Hashcode , equals (Assignment)
 
 ## Week 4 
-  1. Multi-Threading 
-  2. Internal Thread 
-  3. Synchronization , Notify , Wait ()
-  4. ExecutorService , ThreadPool , Callable & Future
+### Multi-Threading 
+  1. Internal Thread 
+  2. Synchronization , Notify , Wait ()
+  3. ExecutorService , ThreadPool , Callable & Future
+  4. Concurrent Collection - concurrentHashMap
+
+## Week 5 
+### Data Structures
+  	1. LinkedList 
+  	2. Stack
+  	3. Queue
 
 ### Mini Project ( Bank System ) 
 Build an application that constitutes for a banking platform, it should handle the account transacs,

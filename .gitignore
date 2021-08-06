@@ -2,3 +2,5 @@
 *.log
 bin/
 .project
+.classpath
+module-info.java

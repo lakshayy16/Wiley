@@ -24,6 +24,46 @@
   	1. LinkedList 
   	2. Stack
   	3. Queue
+    
+## Week 6
+### Structured Query Language 
+  	1. Types of statements with implementation
+  	2. Aggregate Functions and nested queries
+  	3. Triggers & Indexes
+    4. Stored Procedures 
+    5. Functions
+    
+## Week 7
+### Data Structures & Algorithm
+  	1. Recursion
+  	2. Optimization using Dynamic Programming
+  	3. Tree Data structure
+    5. Types of traversals , Binary Search Tree , AVL Trees
+    6. Graph 
+    7. Implementing DFS & BFS
+    8. Prim's and Kruskal's algo for finding Minimum Spanning Tree
+
+## Week 8
+### JDBC & Spring
+  	1. Implementation of JDBC
+  	2. Statements ,PreparedStatements 
+  	3. ResultSet and executeQueries for implementing through java
+    5. Spring Framework
+    6. IOC & Dependency Injection(using Getter/Constructor arguments)
+    7. Bean , Annotations and AutoWiring 
+    8. Spring JDBC
+    
+## Week 9
+### Spring Boot
+  	1. Layered Architecture ( Model/Repostiory/Controller/Service)
+  	2. Connection using JPA
+  	3. Different mapping functionalities - Post,Get,Remove
+    5. Spring Framework
+    6. IOC & Dependency Injection(using Getter/Constructor arguments)
+    7. Bean ,Annotations and AutoWiring 
+    8. Spring JDBC 
+    9. 
+
 
 ### Mini Project ( Bank System ) 
 Build an application that constitutes for a banking platform, it should handle the account transacs,

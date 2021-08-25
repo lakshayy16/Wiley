@@ -58,11 +58,14 @@
   	1. Layered Architecture ( Model/Repostiory/Controller/Service)
   	2. Connection using JPA
   	3. Different mapping functionalities - Post,Get,Remove
-    5. Spring Framework
-    6. IOC & Dependency Injection(using Getter/Constructor arguments)
-    7. Bean ,Annotations and AutoWiring 
-    8. Spring JDBC 
-    9. 
+    5. Response Entity
+   
+## Week 10
+### Web Dev
+  	1. HTML- Formatting tags<>, Lists/Tables
+  	2. CSS- Attributes , Flexbox
+  	3. JavaScript- Conditional flow , Functions/events
+    5. Response Entity
 
 
 ### Mini Project ( Bank System ) 
